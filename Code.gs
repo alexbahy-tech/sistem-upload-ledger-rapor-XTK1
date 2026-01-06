@@ -2,7 +2,7 @@
 // 1. KONFIGURASI SISTEM
 // =======================================================
 const CONFIG = {
-  SHEET_ID: "1J_JF7H61y0Y8AJYT1EyDfFPtn8uyUQYrOHdjOmOeHA8", 
+  SHEET_ID: "1vols2io3CfblBmcYWm6Ywt7ethCWIyplj_CLtLUs-oM", 
   SHEET_NAME: "Sheet1",
   PARENT_FOLDER_ID: "17yNChlXnNrs9Y59A_0xQC4wqdva51I9k",
   LEDGER_FOLDER_ID: "1hCi83BiOTil_S-S8f1KhFbuG3hT-XQXL"
@@ -172,4 +172,3 @@ function uploadFileToDrive(data) {
     return { status: "error", message: e.message };
   }
 }
-
